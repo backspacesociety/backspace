@@ -1,0 +1,15 @@
+<html>
+    <head>
+    </head>
+<body>
+    <p>Hello world</p>
+    <input type="button" value="+" onClick='setEditedByUser("sosi hui");'>
+    <textarea id="test" name="test"></textarea>
+    <script src="./node_modules/ckeditor4/ckeditor.js"></script>
+    <script>CKEDITOR.replace('test');</script>
+    <script>
+
+    console.log(document.getElementById('test').value);
+    </script>
+</body>
+</html>
